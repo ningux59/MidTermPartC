@@ -31,6 +31,10 @@ public class UserProfile
         genre= givenGenre;
     }
 
+    UserProfile() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * A getter for the userID
      * @return the userID
